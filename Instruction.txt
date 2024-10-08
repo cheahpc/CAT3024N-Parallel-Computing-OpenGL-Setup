@@ -7,3 +7,7 @@
     2. Configuration Properties -> Linker -> Input -> Additional Dependencies
         From:   OpenCL.lib;%(AdditionalDependencies)
         To:     C:\OpenCL\sdk\lib\x64\OpenCL.lib;
+
+3. Change Line in "Tutorial 1.cpp"
+    From: #include "C:\OpenCL-Tutorials-VS2019\include\Utils.h"
+    To: #include "Utils.h"
